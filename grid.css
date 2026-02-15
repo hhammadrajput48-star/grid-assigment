@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  background:white;
+  font-family:arial;
+}
+
+.parent{
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 80px;
+  gap:12px;
+  padding:12px;
+}
+
+.item{
+  background:#95c83d;
+  color:#fff;
+  font-size:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* Tall boxes (same like image) */
+
+.b1{ grid-row: span 5; }
+.b2{ grid-row: span 3; }
+.b3{ grid-row: span 3; }
+
+.b4{ grid-row: span 2; }
+.b5{ grid-row: span 3; }
+.b6{ grid-row: span 2; }
+
+.b7{ grid-row: span 2; }
+.b8{ grid-row: span 2; }
+.b9{ grid-row: span 2; }
+.b10{ grid-row: span 1; }
+
+.b11{ grid-row: span 1; }
+.b12{ grid-row: span 1; }
+.b13{ grid-row: span 1; }
+.b14{ grid-row: span 1; }
+.b15{ grid-row: span 1; }
+.b16{ grid-row: span 1; }
+
+.b17{ grid-row: span 1; }
+.b18{ grid-row: span 1; }
+.b19{ grid-row: span 1; }
+.b20{ grid-row: span 1; }
+.b21{ grid-row: span 1; }
+.b22{ grid-row: span 1; }
+.b23{ grid-row: span 1; }
+.b24{ grid-row: span 1; }
+.b25{ grid-row: span 1; }
+.b26{ grid-row: span 1; }
+.b27{ grid-row: span 1; }
